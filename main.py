@@ -16,3 +16,6 @@ scrapped_data['krajkod_s'] = ''
 scrapped_data['kodp_s'] = ''
 scrapped_data['direct_parent'] = ''
 scrapped_data['ultimate_parent'] = ''
+
+print(scrapped_data.info()) # why is grupakap an int?
+print(scrapped_data['A_GRUPKAP'].unique()) # id from the system
